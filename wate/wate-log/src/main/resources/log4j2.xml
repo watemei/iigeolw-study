@@ -2,7 +2,7 @@
 <Configuration status="off" monitorInterval="1800">
 
 	<properties>
-		<property name="LOG_HOME">/data/log/lejane</property>
+		<property name="LOG_HOME">D:/log/lejane</property>
 		<property name="FILE_NAME">lejane</property>
 	</properties>
 
@@ -25,7 +25,7 @@
 	</Appenders>
 
 	<Loggers>
-		<Logger name="com.sifude" level="trace"
+		<Logger name="org.wate" level="trace"
 			additivity="true">
 			<AppenderRef ref="running-log" />
 		</Logger>
