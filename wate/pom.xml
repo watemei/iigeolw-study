@@ -19,7 +19,7 @@
     <finalName>wate</finalName>
   </build>
   <modules>
-  	<module>../wate-log</module>
+  	<module>wate-log</module>
   	<module>wate-logweb</module>
   </modules>
 </project>
